@@ -2,7 +2,7 @@ html{
     height: 100vh;
     width: 100vw;
 }
-        h1 {color: rgb(138, 185, 107); font:bold; font-size: 60px;}
+        h1 {color: rgb(223, 14, 195); font:bold; font-size: 60px;}
     
  img{
     height: 400px;
@@ -10,7 +10,6 @@ html{
 }
 body {
 	font-family:  Arial, Helvetica, sans-serif;
-    background-image:url("second cooking blog picture.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -18,12 +17,9 @@ body {
     min-width: 100%;
 }
 
-li { display: inline;
-    
- 
-}
+li { display: inline;}
 
-* Style the list */
+/* Style the list */
 ul.breadcrumb {
   padding: 10px 16px;
   list-style: none;
@@ -56,7 +52,22 @@ ul.breadcrumb li a:hover {
 }
 
 a {
-    color: #fff;
+    color: #ff3399;
 	line-height: 1.6;
     text-align:left;
 }
+/*pink box for wepage*/
+.grid-item-1{
+  background-color: rgb(255, 102, 153);
+  text-align: center;
+  grid-column: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin: 50px;
+  border-radius: 35%; 
+  border: solid black 1px;
+  padding: 20px;
+  overflow-wrap: break-word;
+}    
+
+
