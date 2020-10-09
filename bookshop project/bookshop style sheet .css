@@ -29,7 +29,7 @@ ul.breadcrumb {
 /* Display list items side by side */
 ul.breadcrumb li {
   display: inline;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 /* Add a slash symbol (/) before/behind each list item */
@@ -69,5 +69,18 @@ a {
   padding: 20px;
   overflow-wrap: break-word;
 }    
+
+h2 {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgb(3, 0, 0); 
+  display: inline-flexbox;
+
+      padding: 10px 20px;
+      max-width: q;
+      padding-left: 20px;
+}
+
+
 
 
